@@ -19,8 +19,7 @@ jobs:
     outputs:
       new_version: ${{ steps.release.outputs.new_version }}
       suffix: ${{ steps.release.outputs.suffix }}
-      tag_
-      : ${{ steps.release.outputs.tag_name }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
     steps:
       - uses: actions/checkout@v2
 
