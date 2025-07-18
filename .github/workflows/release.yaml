@@ -1,7 +1,5 @@
 name: release
 
-user= limtae-1
-email=edh427@naver.com
 
 on:
   push:
